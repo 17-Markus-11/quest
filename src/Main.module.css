@@ -1,0 +1,189 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.scoreContainer {    
+    user-select: none;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.scoreItem {
+    margin-inline: 20px;
+    padding: 5px 10px;
+    background-color: rgb(27, 47, 90);
+    border-radius: 17px
+}
+
+.ordersContainer {
+    user-select: none;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.order {
+    position: relative;
+    /* margin-left: 40px; */
+    border: solid 2px rgb(186, 191, 184);
+    width: 200px;
+    height: 100px;
+    background-color: rgb(240, 240, 232);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.orderItem {
+    height: 80px;
+    width: 80px;
+    border: solid 1px rgb(186, 191, 184);
+    background-color: rgb(209, 226, 236);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    /* user-select: none; */
+}
+
+.orderPrice, .orderDeliveryBtn {
+    position: absolute;
+    padding: 2px 7px;
+    border-radius: 5px;
+}
+
+.orderPrice {
+    top: -15px;
+    background-color: rgb(23, 103, 179);
+    border: solid 1px rgb(72, 154, 231);
+}
+
+.orderDeliveryBtn {
+    bottom: -15px;
+    background-color: rgb(9, 116, 80);
+    border: solid 1px rgb(17, 187, 128);
+}
+
+.orderDeliveryBtn:hover {
+    background-color: rgb(13, 161, 112);
+}
+
+.cancelDeliveryBtn {
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: rgb(155, 45, 12);
+    border: solid 1px rgb(214, 67, 23);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.boardContainer {
+    user-select: none;
+    width: 680px;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(240, 240, 232);
+    justify-content: center;
+}
+
+.boardItem {
+    background-color: rgb(173, 207, 226);
+    border: solid 2px rgb(205, 202, 183);
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+.quests {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+.quest {
+    display: flex;
+    width: 250px;
+    height: 70px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.quest p {
+    text-align: center;
+}
+
+.questImg {
+    height: 400px;
+}
+
+.questCosts {
+    position: absolute;
+    background-color: darkgreen;
+    right: -20px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.popup {
+    position: absolute;
+    width: 99%;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presents {
+    display: flex;
+}
+
+.closePresentBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: xx-large;
+    background-color: darkcyan;
+}
+
+.answers {
+    margin-top: 20px;
+    display: flex;
+}
+
+.answer {
+    margin: 3px;
+    padding: 5px;
+    background-color: rgb(16, 73, 73);
+    user-select: none;
+}
+
+.selectPresent {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    background-color: green;
+}

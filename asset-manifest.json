@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/quest/static/css/main.ab361a69.css",
+    "main.js": "/quest/static/js/main.63267bd5.js",
+    "static/media/dog.png": "/quest/static/media/dog.11b17c404a0bc3c381b1.png",
+    "static/media/blackbox.png": "/quest/static/media/blackbox.c7d7bd670ea390e753b2.png",
+    "static/media/background.jpg": "/quest/static/media/background.f91eb66c83623e936e66.jpg",
+    "static/media/raft.jpg": "/quest/static/media/raft.3fb7dabca30abd9d2e3d.jpg",
+    "static/media/pr.png": "/quest/static/media/pr.6a5bbcc00c8e273cfc2a.png",
+    "static/media/ring.png": "/quest/static/media/ring.5c6f5a04dea69ab0b35a.png",
+    "static/media/dog3.png": "/quest/static/media/dog3.61ca47fa185afa90c074.png",
+    "static/media/dog2.png": "/quest/static/media/dog2.40cca74403ef65c928e5.png",
+    "static/media/watermelon5.png": "/quest/static/media/watermelon5.9f02ffdd9a39177e17c1.png",
+    "static/media/perijok3.png": "/quest/static/media/perijok3.f384bc66083329c94df9.png",
+    "static/media/present1.png": "/quest/static/media/present1.707947afec44e8c9d475.png",
+    "static/media/bucket.png": "/quest/static/media/bucket.87be0011dcffea072834.png",
+    "index.html": "/quest/index.html",
+    "main.ab361a69.css.map": "/quest/static/css/main.ab361a69.css.map",
+    "main.63267bd5.js.map": "/quest/static/js/main.63267bd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab361a69.css",
+    "static/js/main.63267bd5.js"
+  ]
+}

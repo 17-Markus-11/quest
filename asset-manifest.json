@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/quest/static/css/main.ab361a69.css",
-    "main.js": "/quest/static/js/main.ab56c693.js",
+    "main.css": "/quest/static/css/main.0f96a299.css",
+    "main.js": "/quest/static/js/main.e83dc1fb.js",
     "static/media/dog.png": "/quest/static/media/dog.11b17c404a0bc3c381b1.png",
     "static/media/blackbox.png": "/quest/static/media/blackbox.c7d7bd670ea390e753b2.png",
     "static/media/background.jpg": "/quest/static/media/background.f91eb66c83623e936e66.jpg",
@@ -14,11 +14,11 @@
     "static/media/perijok3.png": "/quest/static/media/perijok3.f384bc66083329c94df9.png",
     "static/media/bucket.png": "/quest/static/media/bucket.87be0011dcffea072834.png",
     "index.html": "/quest/index.html",
-    "main.ab361a69.css.map": "/quest/static/css/main.ab361a69.css.map",
-    "main.ab56c693.js.map": "/quest/static/js/main.ab56c693.js.map"
+    "main.0f96a299.css.map": "/quest/static/css/main.0f96a299.css.map",
+    "main.e83dc1fb.js.map": "/quest/static/js/main.e83dc1fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab361a69.css",
-    "static/js/main.ab56c693.js"
+    "static/css/main.0f96a299.css",
+    "static/js/main.e83dc1fb.js"
   ]
 }
